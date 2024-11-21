@@ -1,34 +1,35 @@
 
 1.
-   A Database Management System (DBMS) is a software system that enables users to define, create, maintain, and control access to a 
-              database. The components of a DBMS can be categorized into hardware, software, data, procedures, and users.
+          A Database Management System (DBMS) is a software system that enables users to define, create, maintain, and control access 
+             to a database. The components of a DBMS can be categorized into hardware, software, data, procedures, and users.
 
-  (a). Hardware
-       Definition: The physical devices used in storing and running the database.
-      Examples: Servers, hard drives, processors, and memory devices.
-      Role: Hardware provides the foundation where the DBMS and its data reside. Without it, the DBMS software cannot operate.
-  (b). Software
-        Definition: The set of programs and utilities that manage the database.
-      Examples: DBMS software (e.g., MySQL, Oracle Database, SQL Server).
-      Role:
-      Controls access to the database.
-      Provides an interface for users and applications to interact with the database.
-      Includes tools for creating, maintaining, and querying databases.
-  (c) Data
-        Definition: The collection of related information stored in the database.
-      Types:
-        User Data: Actual data stored by users, like customer records, sales, etc.
-       Metadata: Data about the structure of the database (e.g., schema, table definitions).
-       Indexes: Special data structures that optimize query performance.
-        Role: Data is the central focus of the DBMS, which organizes, secures, and retrieves it efficiently.
-   (d) Database Schema
-       Definition: The logical structure that defines the organization of the database.
-        Role: Specifies how data is stored, the relationships between data, constraints, and permissions. It is essential for 
-       maintaining the database's integrity.
-   (e) Procedures
-      Definition: Rules and instructions for operating and using the DBMS.
-      Examples: Guidelines for data entry, recovery protocols, and database security.
-      Role: Ensures consistent use of the system and smooth database operations.
+          (a). Hardware
+                   Definition: The physical devices used in storing and running the database.
+                  Examples: Servers, hard drives, processors, and memory devices.
+                  Role: Hardware provides the foundation where the DBMS and its data reside. Without it, the DBMS software cannot 
+                                     operate.
+         (b). Software
+                      Definition: The set of programs and utilities that manage the database.
+                     Examples: DBMS software (e.g., MySQL, Oracle Database, SQL Server).
+                          Role:
+                           Controls access to the database.
+                           Provides an interface for users and applications to interact with the database.
+                           Includes tools for creating, maintaining, and querying databases.
+        (c) Data
+                       Definition: The collection of related information stored in the database.
+                               Types:
+                            User Data: Actual data stored by users, like customer records, sales, etc.
+                          Metadata: Data about the structure of the database (e.g., schema, table definitions).
+                           Indexes: Special data structures that optimize query performance.
+                            Role: Data is the central focus of the DBMS, which organizes, secures, and retrieves it efficiently.
+       (d) Database Schema
+                          Definition: The logical structure that defines the organization of the database.
+                            Role: Specifies how data is stored, the relationships between data, constraints, and permissions. It is 
+                               essential for maintaining the database's integrity.
+        (e) Procedures
+                          Definition: Rules and instructions for operating and using the DBMS.
+                         Examples: Guidelines for data entry, recovery protocols, and database security.
+                           Role: Ensures consistent use of the system and smooth database operations.
 
 
 3.
