@@ -32,7 +32,7 @@
                            Role: Ensures consistent use of the system and smooth database operations.
 
 
-3.
+  2.
      A relational database is a type of database that organizes data into tables (also called relations) consisting of rows and 
             columns. Each row represents a unique record, and each column represents an attribute of the data.
    
@@ -55,8 +55,7 @@
                   A relational database developed by Microsoft.
                   Known for its integration with other Microsoft products and strong analytics capabilities.
 
-
-   2.
+  3.
                           1. Data Definition Language (DDL)
                                Purpose: Defines and modifies the structure of the database, such as creating, altering, or deleting 
                                        tables and schemas.
@@ -81,7 +80,7 @@
                                  REVOKE: Removes privileges from a user or role.
 
 
-   4.
+  4.
 
                                Primary Key
                                      Definition: A column (or a set of columns) in a table that uniquely identifies each row in that 
@@ -100,13 +99,13 @@
                                                Can contain NULL values (unless explicitly constrained).
                                                There can be multiple foreign keys in a single table.
 
-5.
+  5.
 
               An Entity-Relationship Diagram (ERD) is a visual representation of the data and relationships within a database system. 
                          It is a conceptual tool used to design and model the structure of a database before it is implemented.
 
 
-6.
+  6.
 
       1. Ease of Use
              Relational databases use tables with rows and columns, making data easy to understand and organize.
@@ -131,28 +130,29 @@ Features like GRANT and REVOKE commands ensure only authorized users can perform
 
 
 7.
-     1. Numeric Data Types
-           Purpose: Store numerical values, which can be integers or decimals.
-                       Examples:
-                    INT or INTEGER: Whole numbers (e.g., 1, 42, -10).
-                    FLOAT or DOUBLE: Numbers with decimal points (e.g., 3.14, -0.001).
-                    DECIMAL or NUMERIC: Precise numbers with a fixed number of decimal places (e.g., 123.45).
-     2. Character/String Data Types
-           Purpose: Store text or alphanumeric data.
-                        Examples:
-                 CHAR(n): Fixed-length string (e.g., CHAR(10) always stores 10 characters, padding with spaces if needed).
-                 VARCHAR(n): Variable-length string up to n characters (e.g., VARCHAR(50)).
-                 TEXT or CLOB: Large text data (e.g., paragraphs or articles).
-     3. Date and Time Data Types
-            Purpose: Store dates, times, or both.
-                        Examples:
-                 DATE: Stores date values (e.g., 2024-11-21).
-                 TIME: Stores time values (e.g., 14:30:00).
-                 DATETIME or TIMESTAMP: Stores both date and time (e.g., 2024-11-21 14:30:00).
-      4. Boolean Data Type
-                 Purpose: Store logical values.
-                        Example:
-                   BOOLEAN: Represents TRUE, FALSE, or NULL (depending on the database system).
+                   1. Numeric Data Types
+                                  Purpose: Store numerical values, which can be integers or decimals.
+                                         Examples:
+                                            INT or INTEGER: Whole numbers (e.g., 1, 42, -10).
+                                            FLOAT or DOUBLE: Numbers with decimal points (e.g., 3.14, -0.001).
+                                             DECIMAL or NUMERIC: Precise numbers with a fixed number of decimal places (e.g., 123.45).
+                   2. Character/String Data Types
+                                      Purpose: Store text or alphanumeric data.
+                                          Examples:
+                                              CHAR(n): Fixed-length string (e.g., CHAR(10) always stores 10 characters, padding with 
+                                                    spaces if needed).
+                                              VARCHAR(n): Variable-length string up to n characters (e.g., VARCHAR(50)).
+                                              TEXT or CLOB: Large text data (e.g., paragraphs or articles).
+                3. Date and Time Data Types
+                                     Purpose: Store dates, times, or both.
+                                              Examples:
+                                               DATE: Stores date values (e.g., 2024-11-21).
+                                               TIME: Stores time values (e.g., 14:30:00).
+                                               DATETIME or TIMESTAMP: Stores both date and time (e.g., 2024-11-21 14:30:00).
+                4. Boolean Data Type
+                                     Purpose: Store logical values.
+                                                Example:
+                                                   BOOLEAN: Represents TRUE, FALSE, or NULL (depending on the database system).
 
 
 8.
