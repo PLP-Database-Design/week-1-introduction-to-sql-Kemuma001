@@ -56,51 +56,54 @@
                   Known for its integration with other Microsoft products and strong analytics capabilities.
 
 
-   3.
-      1. Data Definition Language (DDL)
-           Purpose: Defines and modifies the structure of the database, such as creating, altering, or deleting tables and schemas.
-           Common Commands:
-         CREATE: Creates a new database object, like a table or view.
-         ALTER: Modifies an existing database object, such as adding a column to a table.
-         DROP: Deletes a database object, like a table or schema.
+   2.
+                          1. Data Definition Language (DDL)
+                               Purpose: Defines and modifies the structure of the database, such as creating, altering, or deleting 
+                                       tables and schemas.
+                            Common Commands:
+                                CREATE: Creates a new database object, like a table or view.
+                               ALTER: Modifies an existing database object, such as adding a column to a table.
+                                 DROP: Deletes a database object, like a table or schema.
 
 
-     2. Data Manipulation Language (DML)
-        Purpose: Manages and manipulates the data stored in database tables.
-            Common Commands:
-         SELECT: Retrieves data from tables.
-         INSERT: Adds new records to a table.
-         UPDATE: Modifies existing records.
-         DELETE: Removes records from a table.
+                          2. Data Manipulation Language (DML)
+                                 Purpose: Manages and manipulates the data stored in database tables.
+                             Common Commands:
+                                SELECT: Retrieves data from tables.
+                                INSERT: Adds new records to a table.
+                                UPDATE: Modifies existing records.
+                                DELETE: Removes records from a table.
 
-    3. Data Control Language (DCL)
-         Purpose: Manages access rights and permissions in the database.
-         Common Commands:
-         GRANT: Gives a user or role specific privileges.
-         REVOKE: Removes privileges from a user or role.
+                          3. Data Control Language (DCL)
+                                Purpose: Manages access rights and permissions in the database.
+                               Common Commands:
+                                 GRANT: Gives a user or role specific privileges.
+                                 REVOKE: Removes privileges from a user or role.
 
 
    4.
 
-      Primary Key
-          Definition: A column (or a set of columns) in a table that uniquely identifies each row in that table.
-          Characteristics:
-           Must contain unique values.
-           Cannot contain NULL values.
-           Each table can have only one primary key.
+                               Primary Key
+                                     Definition: A column (or a set of columns) in a table that uniquely identifies each row in that 
+                                                table.
+                                   Characteristics:
+                                       Must contain unique values.
+                                       Cannot contain NULL values.
+                                       Each table can have only one primary key.
 
 
-    Foreign Key
-            Definition: A column (or set of columns) in one table that establishes a link between the data in two tables. It refers to 
-                         the primary key in another table.
-            Characteristics:
-                    Can have duplicate values.
-                    Can contain NULL values (unless explicitly constrained).
-                    There can be multiple foreign keys in a single table.
+                                Foreign Key
+                                           Definition: A column (or set of columns) in one table that establishes a link between the 
+                                      data in two tables. It refers to the primary key in another table.
+                                           Characteristics:
+                                               Can have duplicate values.
+                                               Can contain NULL values (unless explicitly constrained).
+                                               There can be multiple foreign keys in a single table.
 
 5.
-     An Entity-Relationship Diagram (ERD) is a visual representation of the data and relationships within a database system. It is a 
-                 conceptual tool used to design and model the structure of a database before it is implemented.
+
+              An Entity-Relationship Diagram (ERD) is a visual representation of the data and relationships within a database system. 
+                         It is a conceptual tool used to design and model the structure of a database before it is implemented.
 
 
 6.
