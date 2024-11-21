@@ -119,13 +119,13 @@
       3. Flexibility
                  The tabular structure allows for easy addition, deletion, or modification of data without significant changes to the 
                             database schema.
-v                 Relationships between tables can be dynamically created and updated as the system evolves.
-     4. Scalability
+                  Relationships between tables can be dynamically created and updated as the system evolves.
+      4. Scalability
                   Relational databases can handle large amounts of data and complex queries efficiently.
                   They are suitable for small systems as well as large-scale enterprise applications.
-        5. Data Security
-Relational databases allow fine-grained control of user permissions and access levels.
-Features like GRANT and REVOKE commands ensure only authorized users can perform specific operations.
+      5. Data Security
+                    Relational databases allow fine-grained control of user permissions and access levels.
+                     Features like GRANT and REVOKE commands ensure only authorized users can perform specific operations.
 
 
 
