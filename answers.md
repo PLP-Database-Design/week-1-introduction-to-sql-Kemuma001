@@ -37,23 +37,23 @@
             columns. Each row represents a unique record, and each column represents an attribute of the data.
    
                      Examples of Relational Databases:
-        MySQL:
+            MySQL:
 
-            Open-source and widely used for web applications.
-            Known for its speed and reliability.
-        PostgreSQL:
+               Open-source and widely used for web applications.
+               Known for its speed and reliability.
+            PostgreSQL:
 
-            Open-source and highly extensible.
-            Supports advanced data types and performance optimization.
-        Oracle Database:
+                Open-source and highly extensible.
+                Supports advanced data types and performance optimization.
+            Oracle Database:
 
-            Commercial relational database with robust features for enterprise use.
-           Includes advanced features for scalability and security.
+                 Commercial relational database with robust features for enterprise use.
+                 Includes advanced features for scalability and security.
 
-      Microsoft SQL Server:
+            Microsoft SQL Server:
 
-           A relational database developed by Microsoft.
-           Known for its integration with other Microsoft products and strong analytics capabilities.
+                  A relational database developed by Microsoft.
+                  Known for its integration with other Microsoft products and strong analytics capabilities.
 
 
    3.
